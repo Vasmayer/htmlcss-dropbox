@@ -35,13 +35,38 @@
     padding: 5px 15px;
     font-weight: normal;
 }
+.pb-20
+{
+    padding-bottom: 20px;
+}
+.mb-20
+{
+    margin-bottom: 20px;
+}
+.mb-30
+{
+    margin-bottom: 30px;
+}
 .mb-40
 {
     margin-bottom: 40px;
 }
+
+.mt-10
+{
+    margin-top: 10px;
+}
 .mt-15
 {
     margin-top: 15px;
+}
+.mt-20
+{
+    margin-top: 20px;
+}
+.mt-30
+{
+    margin-top: 30px;
 }
 .mt-50
 {
@@ -50,6 +75,14 @@
 .mt-150
 {
     margin-top: 150px;
+}
+.color-gray
+{
+    color: #d0d0d3;
+}
+.color-blue
+{
+    color: #0061ff;
 }
 /* NAVBAR */
 nav
@@ -128,6 +161,7 @@ main h2{
     font-size: 45px;
 }
 
+/* radio */
 .main-radio-buttons .radio
 {
     display: inline-block;
@@ -149,10 +183,7 @@ main h2{
 {
     width: 30%;
     border: 1px #d0d0d3 solid;
-
-    /* TODO DA TOGLIERE */
-
-    height: 600px;
+    height: 1000px;
  
 }
 .main-col-center
@@ -161,9 +192,7 @@ main h2{
     margin-left: 5%;
     margin-right: 5%;
     border: 1px #d0d0d3 solid;
-
-        /* TODO DA TOGLIERE */
-    height: 600px;
+    height: 1000px;
     
 }
 
@@ -180,13 +209,59 @@ main h2{
 .main-col-container h4
 {
     font-size: 16px;
-    margin:20px 0 10px 0;
+
 }
-.main-col-container span
+.main-col-container h5 span
 {
     font-size: 14px;
-   color: #d0d0d3;
+    color: #d0d0d3;
+}
+.main-col-container h5 
+{
+    font-size: 14px;
+
 }
 .main-col-content h3{
     font-size: 25px;
 }
+.main-col-btn
+{
+    display: block;
+    text-align: center;
+}
+
+.main-col-container li{
+    list-style-type: none;
+}
+.col-100
+{
+    display: inline-block;
+    width: 100%;
+    border: 1px #d0d0d3 solid;
+}
+.col-100>h4
+{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px #d0d0d3 solid;
+}
+.section-col-left
+{
+    width: 70%;
+}
+.section-col-right
+{
+    width: 30%;
+}
+.section-col-left h3
+{
+    font-size: 25px;
+}
+.section-col-left h4
+{
+    font-size: 16px;
+
+}
+
+
+
