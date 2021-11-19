@@ -6,4 +6,58 @@
     font-family: 'Open Sans', sans-serif;;
 }
 
+/* UTILITIES */
+.clearfix::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container-small
+{
+    width: 60%;
+}
+.container-big
+{
+    width: 80%;
+}
+.v-align
+{
+    vertical-align: middle;
+}
+/* NAVBAR */
+nav
+{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    line-height: 80px;
+}
+.col{
+    float: left;
+}
+/* column left */
+.nav-col-left
+{
+    width: 70%;
+}
+.nav-col-left li,.nav-col-right li{
+
+    display: inline-block;
+    margin-left: 35px;
+    font-weight: bold;
+  
+}
+/* column right */
+.nav-col-right
+{
+    width: 30%;
+}
+.nav-col-right a
+{
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 15px;
+    font-weight: normal;
+}
 
