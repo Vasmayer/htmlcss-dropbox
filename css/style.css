@@ -16,14 +16,32 @@
 .container-small
 {
     width: 60%;
+    margin:auto
 }
 .container-big
 {
     width: 80%;
+    margin:auto
 }
 .v-align
 {
     vertical-align: middle;
+}
+.btn
+{
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 15px;
+    font-weight: normal;
+}
+.mb-40
+{
+    margin-bottom: 40px;
+}
+.mt-15
+{
+    margin-top: 15px;
 }
 /* NAVBAR */
 nav
@@ -34,6 +52,11 @@ nav
 }
 .col{
     float: left;
+}
+.nav-link
+{
+    text-decoration: none;
+    color: black;
 }
 /* column left */
 .nav-col-left
@@ -52,12 +75,47 @@ nav
 {
     width: 30%;
 }
-.nav-col-right a
+
+/* jumbotron */
+
+.jumbotron
 {
-    text-decoration: none;
-    color: white;
-    background-color: #0061ff;
-    padding: 5px 15px;
-    font-weight: normal;
+    background-color: #b4d0e7;
+}
+.jumbotron h1[class="jumbo-title"]
+{
+    padding-top: 50px;
+    font-size: 80px;
+}
+.jumbo-text
+{
+    margin-top: 60px;
+    padding-bottom:140px;
+}
+/* column left */
+.jumbo-col-left
+{
+    width: 40%;
+}
+.jumbo-col-left p{
+    width: 70%;
+    font-size: 16px;
+    font-weight: bold;
 }
 
+/* column right */
+.jumbo-col-right
+{
+    width: 60%;
+    position: relative;
+}
+.jumbo-col-right img
+{
+   max-width: 100%;
+}
+.img-container
+{
+    position: absolute;
+    left: 0;
+    top:0;
+}
