@@ -47,6 +47,10 @@
 {
     padding: 50px;
 }
+.pt-50
+{
+    padding-top: 50px;
+}
 .pb-20
 {
     padding-bottom: 20px;
@@ -104,6 +108,30 @@
 {
     color: #0061ff;
 }
+.fs-14
+{
+    font-size: 14px;
+}
+.fs-16
+{
+    font-size: 16px;
+}
+.fs-25
+{
+    font-size: 25px;
+}
+.fs-27
+{
+    font-size: 27px;
+}
+.fs-45
+{
+    font-size: 45px;
+}
+.fs-80
+{
+    font-size: 80px;
+}
 /* NAVBAR */
 nav
 {
@@ -143,12 +171,6 @@ nav
 {
     background-color: #b4d0e7;
 }
-.jumbotron h1[class="jumbo-title"]
-{
-    padding-top: 50px;
-    font-size: 80px;
-}
-
 /* column left */
 .jumbo-col-left
 {
@@ -156,7 +178,6 @@ nav
 }
 .jumbo-col-left p{
     width: 70%;
-    font-size: 16px;
     font-weight: bold;
 }
 
@@ -172,14 +193,10 @@ nav
 .img-container,.jumbo-col-left-content
 {
    position: relative;
-   top: 80px;;
+   top: 80px;
  
 }
 /* MAIN */
-
-main h2{
-    font-size: 45px;
-}
 
 /* radio */
 .main-radio-buttons .radio
@@ -193,8 +210,6 @@ main h2{
 .main-radio-buttons label
 {
     margin-right: 20px;
-    font-size: 16px;
-    font-weight: bold;
     vertical-align: middle;
 }
 /* columns planes */
@@ -226,24 +241,8 @@ main h2{
 {
     margin:30px 20px;
 }
-.main-col-container h4
-{
-    font-size: 16px;
 
-}
-.main-col-container h5 span
-{
-    font-size: 14px;
-    color: #d0d0d3;
-}
-.main-col-container h5 
-{
-    font-size: 14px;
 
-}
-.main-col-content h3{
-    font-size: 25px;
-}
 .main-col-btn
 {
     display: block;
@@ -273,15 +272,7 @@ main h2{
 {
     width: 30%;
 }
-.section-col-left h3
-{
-    font-size: 25px;
-}
-.section-col-left h4
-{
-    font-size: 16px;
 
-}
 /* trova patner */
 .col-partner-left
 {
@@ -296,14 +287,11 @@ main h2{
     width: 40%;
  
 }
-.col-partner-right h3
-{
-    font-size: 27px;
-}
+
 .col-partner-right h4
 {
     line-height: 30px;
-    font-weight: normal;
+    font-weight: bold;
 }
 .col-partner-right .btn-find-partner
 {
@@ -317,10 +305,19 @@ main h2{
 /* operations */
 .col-operations-side
 {
-    width: 25%;
+    width: 30%;
+}
+.col-operations-side img,.col-operations-center img
+{
+    max-width: 100%;
 }
 .col-operations-center
 {
-    width: 50%;
-    padding: 0 12.5%;
+    width: 40%;
+    padding: 0 5%;
+}
+.col-operations-side h4,.col-operations-center h4
+{
+    line-height: 30px;
+    font-weight: bold;
 }
