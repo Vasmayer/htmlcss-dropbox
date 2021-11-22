@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;;
+}
+.container-big
+{
+    width: 80%;
+    margin:auto;
+}
+.container-small
+{
+    width: 60%;
+    margin:auto
+}
+.w-100
+{
+    width: 100%;
+}
+.col{
+    float: left;
+}
+.col-right{
+    float: right;
+}
+.col-100
+{
+    display: inline-block;
+    width: 100%;
+    border: 1px #d0d0d3 solid;
+}
