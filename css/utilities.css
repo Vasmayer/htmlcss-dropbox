@@ -48,7 +48,10 @@
 {
     padding-left: 50px;
 }
-
+.pt-20
+{
+    padding-top: 20px;
+}
 .pt-50
 {
     padding-top: 50px;
@@ -169,4 +172,8 @@
 .fs-80
 {
     font-size: 80px;
+}
+.p-relative
+{
+    position: relative;
 }
